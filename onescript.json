@@ -1,0 +1,17 @@
+{
+  "version": "1.7.0",
+  "description": "A flexible lightweight multi-language test report tool",
+  "homepage": "https://github.com/EvilBeaver/OneScript",
+  "license": "Apache-2.0",
+  "url": "https://oscript.io/downloads/latest/OneScript-1.7.0-x86.zip",
+  "extract_dir": "OneScript-1.7.0-x86",
+  "bin": "bin\\oscript.exe",
+  "env_set": {
+    "ALLURE_HOME": "$dir"
+  },
+  "checkver": "github",
+  "autoupdate": {
+    "url": "https://github.com/EvilBeaver/OneScript/releases/download/$version/OneScript-$version-x86.zip",
+    "extract_dir": "OneScript-$version"
+  }
+}
