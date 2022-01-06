@@ -5,6 +5,8 @@
   "license": "Apache-2.0",
   "url": "https://oscript.io/downloads/latest/OneScript-1.7.0-x86.zip",
   "hash": "d1b6c29946a8145b1d62c1988b0ef698c659dce6bef79ad3bdcaf213b8144e4a",
-
-  "bin": "bin\\oscript.exe"
+  "bin": [
+    ["bin\\oscript.exe", "oscript"],
+    ["bin\\opm.exe", "opm"]
+  ]
 }
