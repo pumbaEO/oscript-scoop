@@ -11,5 +11,19 @@
       "url": "https://oscript.io/downloads/latest/OneScript-1.7.0-x86.zip"
     }
   },
-  "env_add_path": "bin"
+  "env_add_path": "bin",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/EvilBeaver/OneScript/releases/download/v$version/OneScript-$version_x86.zip"
+      },
+      "32bit": {
+        "url": "https://github.com/EvilBeaver/OneScript/releases/download/v$version/OneScript-$version_x64.zip"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/checksums.txt"
+    }
+  }
 }
