@@ -17,12 +17,8 @@ PowerShell:
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
 
-scoop install git sudo
 
-scoop bucket add nerd-fonts
-sudo scoop install Open-Sans Raleway --global
-
-scoop bucket add spotify hhttps://github.com/pumbaEO/oscript-scoop.git
+scoop bucket add onescript hhttps://github.com/pumbaEO/oscript-scoop.git
 scoop install onescript
 
 
