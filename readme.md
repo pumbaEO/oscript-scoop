@@ -18,7 +18,7 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
 
 
-scoop bucket add onescript hhttps://github.com/pumbaEO/oscript-scoop.git
+scoop bucket add onescript https://github.com/pumbaEO/oscript-scoop.git
 scoop install onescript
 
 
