@@ -3,8 +3,13 @@
   "description": "A flexible lightweight multi-language test report tool",
   "homepage": "https://github.com/EvilBeaver/OneScript",
   "license": "Apache-2.0",
-  "url": "https://oscript.io/downloads/latest/OneScript-1.7.0-x86.zip",
-  "hash": "d1b6c29946a8145b1d62c1988b0ef698c659dce6bef79ad3bdcaf213b8144e4a",
-  "env_add_path": "bin",
-  "bin": [["bin\\oscript.exe", "oscript"]]
+  "architecture": {
+    "64bit": {
+      "url": "https://oscript.io/downloads/latest/x64/OneScript-1.7.0-x64.zip"
+    },
+    "32bit": {
+      "url": "https://oscript.io/downloads/latest/OneScript-1.7.0-x86.zip"
+    }
+  },
+  "env_add_path": "bin"
 }
