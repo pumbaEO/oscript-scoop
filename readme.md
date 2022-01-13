@@ -4,7 +4,7 @@ A [Scoop](https://github.com/lukesampson/scoop) bucket for Onescript, Spicetify 
 
 ## Installing and customizing Onescript
 
-First, the latest version of Spotify should be installed:
+First, the latest version of Onescript should be installed:
 
     $ scoop install onescript
 
